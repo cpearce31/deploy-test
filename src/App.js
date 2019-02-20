@@ -40,7 +40,6 @@ class App extends Component {
       <React.Fragment>
         <Header user={user} />
 
-        <p>asd</p>
         {flashMessage && <h3 className={flashType}>{flashMessage}</h3>}
         
         <h1>blarg</h1>
